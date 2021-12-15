@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'Stick No Bills', sans-serif;
+
+}
+
+.container{
+    max-width: 80%;
+    background-color: rgba(13, 0, 27, 0.4);
+    padding: 34px;
+    margin: auto;
+}
+
+h1{
+   font-size: 35px;
+}
+p{
+    font-size: 18px;
+}
+
+.container h1, p{
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(255, 251, 0);    
+}
+
+input, textarea{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 30px rgb(255, 217, 0);
+      
+    width: 80%;
+    margin: 11px auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    display: block;
+    background-color: rgba(255, 0, 13, 0.6);
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    color: rgb(255, 213, 213);
+    background-color: rgb(187, 0, 0);
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    text-shadow: 0 0 15px rgb(255, 238, 0);
+}
+
+.bg{
+    width: 100%;
+    max-height: 980px;
+    position: absolute;
+    z-index: -1;
+}
